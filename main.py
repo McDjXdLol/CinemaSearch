@@ -5,7 +5,7 @@ API_KEY = "ENTER_YOUR_API_KEY"
 
 query = input("Search for: ")
 
-url = f"https://api.themoviedb.org/3/search/movie?query={query}&include_adult=false&language=en-US&page=1"
+url = f"https://api.themoviedb.org/3/search/movie?query={query}&include_adult=true&language=en-US&page=1"
 
 headers = {
     "accept": "application/json",
